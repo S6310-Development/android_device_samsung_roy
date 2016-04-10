@@ -12,8 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
-
-ifeq ($(TARGET_DEVICE),roy)
-include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
+add_lunch_combo cm_royss-userdebug

@@ -12,8 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
+include device/samsung/msm7x27a-common/msm7x27a.mk
 
-ifeq ($(TARGET_DEVICE),roy)
-include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
+# Initlogo
+PRODUCT_COPY_FILES += \
+    device/samsung/royssdsim/ramdisk/initlogo.rle:root/initlogo.rle
+
+$(call inherit-product, vendor/samsung/royss/royss-vendor.mk)
