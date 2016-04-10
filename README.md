@@ -1,1 +1,1 @@
-CyanogenMod 11 device configuration for Samsung S6310
+CyanogenMod 11 device configuration for Samsung S6312
