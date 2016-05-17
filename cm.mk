@@ -29,14 +29,14 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/roy/roy.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := roy
+PRODUCT_DEVICE := royss
 PRODUCT_NAME := cm_roy
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-S6312
 PRODUCT_MANUFACTURER := samsung
 
 #Set build fingerprint / ID / Prduct Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=roy TARGET_DEVICE=roy BUILD_FINGERPRINT=samsung/royssub/royss:4.4.4/KTU84Q/S6312UBANH3:user/release-keys PRIVATE_BUILD_DESC="royssub-user 4.4.4 KTU84Q S6312UBANH3 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=royss TARGET_DEVICE=royss BUILD_FINGERPRINT=samsung/royssub/royss:4.4.4/KTU84Q/S6312UBANH3:user/release-keys PRIVATE_BUILD_DESC="royssub-user 4.4.4 KTU84Q S6312UBANH3 release-keys"
 
 UTC_DATE := $(shell date +%s)
 DATE := $(shell date +%Y%m%d)
