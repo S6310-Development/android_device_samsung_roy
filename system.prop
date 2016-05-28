@@ -25,4 +25,4 @@ media.stagefright.enable-qcp=true
 # Multisim
 persist.radio.multisim.config=dsds
 persist.dsds.enabled=true
-ro.multi.rild=true
+ro.multi.rild=false

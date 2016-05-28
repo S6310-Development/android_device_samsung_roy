@@ -18,4 +18,4 @@ include device/samsung/msm7x27a-common/msm7x27a.mk
 PRODUCT_COPY_FILES += \
     device/samsung/roy/ramdisk/initlogo.rle:root/initlogo.rle
 
-$(call inherit-product, vendor/samsung/royss/royss-vendor.mk)
+$(call inherit-product, vendor/samsung/roy/roy-vendor.mk)
