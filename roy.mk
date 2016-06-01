@@ -18,4 +18,9 @@ include device/samsung/msm7x27a-common/msm7x27a.mk
 PRODUCT_COPY_FILES += \
     device/samsung/roy/ramdisk/initlogo.rle:root/initlogo.rle
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.multisim.config=dsds \
+    persist.dsds.enabled=true \
+    ro.multi.rild=false
+
 $(call inherit-product, vendor/samsung/roy/roy-vendor.mk)
