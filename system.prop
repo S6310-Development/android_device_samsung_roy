@@ -4,6 +4,7 @@
 
 # RIL
 rild.libargs=-d /dev/smd0
+ro.multi.rild=true
 
 # Call Recording
 persist.call_recording.enabled=1

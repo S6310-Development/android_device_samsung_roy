@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
-    persist.dsds.enabled=true \
-    ro.multi.rild=false
+    persist.dsds.enabled=true
 
 $(call inherit-product, vendor/samsung/roy/roy-vendor.mk)
