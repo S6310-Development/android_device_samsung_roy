@@ -20,5 +20,7 @@ include device/samsung/msm7x27a-common/BoardConfigCommon.mk
 ## Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := royss
 
+TARGET_OTA_ASSERT_DEVICE := roy,royss
+
 ## Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_royss_debug_defconfig
